@@ -39,6 +39,8 @@ This app bridges that gap by adding **smart resume functionality** to PotPlayer,
 - **Clipboard Integration**: Paste and play URLs directly from clipboard
 
 ## Screenshots
+<img width="1203" height="740" alt="{9D23BC4E-42D2-4EEA-97C9-A0C7519377B8}" src="https://github.com/user-attachments/assets/47bb2586-1359-4d81-a6e0-bb264b28d0cc" />
+
 
 ### Main Interface
 The application features a clean, modern interface with:
