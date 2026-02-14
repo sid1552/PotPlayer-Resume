@@ -2,18 +2,18 @@
 
 A modern GUI application that automatically tracks and resumes playback positions for network streams in PotPlayer
 
-## 🤔 Why This App?
+## Why This App?
 
 ### The Problem
 
 Most media players don't aggressively cache network streams, leading to buffering and stuttering. Only a few players like **MPV** and **PotPlayer** provide robust stream caching.
 
-However, **PotPlayer stands alone** as the only player that offers:
+However, **PotPlayer is the ONLY player** that combines all three of these features:
 
-- ✅ **RTX Video Enhancement** (AI-powered upscaling and HDR)
-- ✅ **RTX VSR** (Video Super Resolution)
-- ✅ **Aggressive stream caching** for smooth playback
-- ❌ **BUT** no native support for resuming network streams
+- **RTX Video Enhancement** (AI-powered upscaling and HDR)
+- **RTX VSR** (Video Super Resolution)
+- **Aggressive stream caching** for smooth playback
+- **BUT** no native support for resuming network streams
 
 **No other player offers all three capabilities together!**
 
@@ -21,41 +21,24 @@ However, **PotPlayer stands alone** as the only player that offers:
 
 This app bridges that gap by adding **smart resume functionality** to PotPlayer, giving you:
 
-- 🚀 The best streaming performance with RTX enhancements
-- 💾 Automatic position tracking for network URLs
-- ⚡ Seamless resume across different streaming sessions
+- The best streaming performance with RTX enhancements
+- Automatic position tracking for network URLs
+- Seamless resume across different streaming sessions
 
-**TL;DR**: Get PotPlayer's superior caching and RTX features + the convenience of automatic resume that it's missing!
+**TL;DR**: Get PotPlayer's unique combination of RTX features + aggressive caching + the convenience of automatic resume that it's missing!
 
+## Features
 
+- **Smart Resume**: Automatically saves and resumes playback positions for network URLs
+- **Modern Dark UI**: Beautiful, clean interface with dark theme
+- **Media Library**: Track multiple videos with metadata (quality, source, file size)
+- **Smart Parsing**: Automatically extracts movie names, quality, and source information
+- **Network Streams**: Works with HTTP/HTTPS streaming URLs
+- **Position History**: Keep track of all your watched content with timestamps
+- **One-Click Resume**: Double-click any saved position to continue watching
+- **Clipboard Integration**: Paste and play URLs directly from clipboard
 
-
-
-
-
-
-
-
-## ✨ Features
-
-- 🎬 **Smart Resume**: Automatically saves and resumes playback positions for network URLs
-- 🎨 **Modern Dark UI**: Beautiful, clean interface with dark theme
-- 📊 **Media Library**: Track multiple videos with metadata (quality, source, file size)
-- 🔍 **Smart Parsing**: Automatically extracts movie names, quality, and source information
-- 🌐 **Network Streams**: Works with HTTP/HTTPS streaming URLs
-- 💾 **Position History**: Keep track of all your watched content with timestamps
-- ⚡ **One-Click Resume**: Double-click any saved position to continue watching
-- 📋 **Clipboard Integration**: Paste and play URLs directly from clipboard
-
-
-
-
-
-
-
-
-
-
+## Screenshots
 
 ### Main Interface
 The application features a clean, modern interface with:
@@ -64,7 +47,7 @@ The application features a clean, modern interface with:
 - Organized table view of all saved positions
 - Movie metadata including quality, source, and file size
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -76,7 +59,7 @@ The application features a clean, modern interface with:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/potplayer-resume.git
+   git clone https://github.com/sid1552/PotPlayer-Resume.git
    cd potplayer-resume
    ```
 
@@ -94,7 +77,7 @@ The application features a clean, modern interface with:
    python potplayer_resume_clean.py
    ```
 
-2. **Enter a streaming URL** or click "📋 Paste & Play" to use clipboard content
+2. **Enter a streaming URL** or click "Paste & Play" to use clipboard content
 
 3. **The app will**:
    - Check if you've watched this video before
@@ -103,17 +86,17 @@ The application features a clean, modern interface with:
 
 4. **When you close PotPlayer**, your position is automatically saved!
 
-## 🎯 Usage
+## Usage
 
 ### Playing a Video
 
 **Method 1: Manual Entry**
 1. Paste or type the streaming URL in the input field
-2. Click "▶ Play" or press Enter
+2. Click "Play" or press Enter
 
 **Method 2: Quick Paste**
 1. Copy a streaming URL to your clipboard
-2. Click "📋 Paste & Play"
+2. Click "Paste & Play"
 
 ### Managing Saved Positions
 
@@ -124,12 +107,12 @@ The application features a clean, modern interface with:
 
 ### Settings
 
-Click the "⚙ Settings" button to:
+Click the "Settings" button to:
 - Configure custom PotPlayer installation path
 - Auto-detect PotPlayer location
 - Verify installation
 
-## 🎨 Features in Detail
+## Features in Detail
 
 ### Smart Movie Name Parsing
 
@@ -151,12 +134,12 @@ Automatically detects:
 ### Real-time Monitoring
 
 While PotPlayer is running:
-- ⏱️ Live position display (HH:MM:SS)
-- 📊 Progress bar showing playback percentage
-- 🎬 Duration tracking
-- 💾 Automatic position saving every 2 seconds
+- Live position display (HH:MM:SS)
+- Progress bar showing playback percentage
+- Duration tracking
+- Automatic position saving every 2 seconds
 
-## 📁 File Structure
+## File Structure
 
 ```
 potplayer-resume/
@@ -169,7 +152,7 @@ potplayer-resume/
     └── .potplayer_resume_settings.json # App settings
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 ### Default PotPlayer Paths
 
@@ -200,7 +183,7 @@ Example entry:
 }
 ```
 
-## 🔧 Technical Details
+## Technical Details
 
 ### How It Works
 
@@ -220,7 +203,7 @@ SendMessage(hwnd, WM_USER, 0x5004, 0)  # Get position
 SendMessage(hwnd, WM_USER, 0x5002, 0)  # Get duration
 ```
 
-## 🎨 Theming
+## Theming
 
 The app uses a custom dark theme inspired by Catppuccin:
 
@@ -232,7 +215,7 @@ The app uses a custom dark theme inspired by Catppuccin:
 | Warning | `#f9e2af` |
 | Error | `#f38ba8` |
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### PotPlayer Not Found
 
@@ -261,7 +244,7 @@ The app uses a custom dark theme inspired by Catppuccin:
 - Position only updates after 5 seconds of playback
 - Check if PotPlayer window is detected (check status bar)
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see below for details:
 
@@ -289,40 +272,34 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Here's how you can help:
 
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
 ### Ideas for Contributions
 
-- 📱 Tray icon with notifications
-- 🎬 Trakt.tv integration - Sync watch progress and scrobble to Trakt
-- 📺 Stremio Desktop integration - Direct launch from Stremio with position tracking
+- Tray icon with notifications
+- Trakt.tv integration - Sync watch progress and scrobble to Trakt
+- Stremio Desktop integration - Direct launch from Stremio with position tracking
+- Export/import position database
 
-## ⭐ Acknowledgments
+## Acknowledgments
 
 - **PotPlayer** by Daum for the excellent media player
 - **Catppuccin** color scheme for design inspiration
 - Python's built-in `tkinter` for the GUI framework
 
-## 📮 Contact
+## Contact
 
 If you have questions or suggestions:
 - Open an [Issue](https://github.com/sid1552/PotPlayer-Resume/issues)
 
-
-
 ---
 
-
-**Made with ❤️ for PotPlayer users**
-
-If you find this useful, please ⭐ star the repository!
-
-
+Made with care for PotPlayer users. If you find this useful, please star the repository!
