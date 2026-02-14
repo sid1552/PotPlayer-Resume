@@ -15,6 +15,8 @@ However, **PotPlayer stands alone** as the only player that offers:
 - ✅ **Aggressive stream caching** for smooth playback
 - ❌ **BUT** no native support for resuming network streams
 
+**No other player offers all three capabilities together!**
+
 ### The Solution
 
 This app bridges that gap by adding **smart resume functionality** to PotPlayer, giving you:
