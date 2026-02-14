@@ -274,7 +274,7 @@ Contributions are welcome! Here's how you can help:
 
 If you have questions or suggestions:
 - Open an [Issue](https://github.com/sid1552/PotPlayer-Resume/issues)
-- Start a [Discussion](https://github.com/sid1552/PotPlayer-Resume/discussions)
+
 
 
 ---
@@ -284,4 +284,4 @@ If you have questions or suggestions:
 
 If you find this useful, please ⭐ star the repository!
 
-</div>
+
