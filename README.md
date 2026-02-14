@@ -2,24 +2,28 @@
 
 A modern GUI application that automatically tracks and resumes playback positions for network streams in PotPlayer
 
-🤔 Why This App?
-The Problem
-Most media players don't aggressively cache network streams, leading to buffering and stuttering. Only a few players like MPV and PotPlayer provide robust stream caching.
-However, PotPlayer stands alone as the only player that offers:
+## 🤔 Why This App?
 
-✅ RTX Video Enhancement (AI-powered upscaling and HDR)
-✅ RTX VSR (Video Super Resolution)
-✅ Aggressive stream caching for smooth playback
-❌ BUT no native support for resuming network streams
+### The Problem
 
-The Solution
-This app bridges that gap by adding smart resume functionality to PotPlayer, giving you:
+Most media players don't aggressively cache network streams, leading to buffering and stuttering. Only a few players like **MPV** and **PotPlayer** provide robust stream caching.
 
-The best streaming performance with RTX enhancements
-Automatic position tracking for network URLs
-Seamless resume across different streaming sessions
+However, **PotPlayer stands alone** as the only player that offers:
 
-TL;DR: Get PotPlayer's superior caching and RTX features + the convenience of automatic resume that it's missing!
+- ✅ **RTX Video Enhancement** (AI-powered upscaling and HDR)
+- ✅ **RTX VSR** (Video Super Resolution)
+- ✅ **Aggressive stream caching** for smooth playback
+- ❌ **BUT** no native support for resuming network streams
+
+### The Solution
+
+This app bridges that gap by adding **smart resume functionality** to PotPlayer, giving you:
+
+- 🚀 The best streaming performance with RTX enhancements
+- 💾 Automatic position tracking for network URLs
+- ⚡ Seamless resume across different streaming sessions
+
+**TL;DR**: Get PotPlayer's superior caching and RTX features + the convenience of automatic resume that it's missing!
 
 
 
@@ -295,9 +299,9 @@ Contributions are welcome! Here's how you can help:
 
 ### Ideas for Contributions
 
-📱 Tray icon with notifications
-🎬 Trakt.tv integration - Sync watch progress and scrobble to Trakt
-📺 Stremio Desktop integration - Direct launch from Stremio with position tracking
+- 📱 Tray icon with notifications
+- 🎬 Trakt.tv integration - Sync watch progress and scrobble to Trakt
+- 📺 Stremio Desktop integration - Direct launch from Stremio with position tracking
 
 ## ⭐ Acknowledgments
 
